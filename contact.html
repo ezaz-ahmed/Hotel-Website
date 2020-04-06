@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hotel BT | Contact</title>
+    <link rel="icon" href="images/hotel.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2f5c4b57c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">HBT</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading">
+          <span class="text-primary">Contact</span>
+          Us
+        </h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info" class="py-3 bg-dark">
+      <div class="container">
+        <div class="container">
+          <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Location</h3>
+            <p>1006 Donia Bazar, Dhaka-1276</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3>Phone Number</h3>
+            <p>(+88) 045848565</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email</h3>
+            <p>iamnoob@wtf.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Hotel BT &copy; 2020, ALl Rights Reserved</p>
+    </footer>
+  </body>
+</html>
